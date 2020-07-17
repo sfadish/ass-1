@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMPLOYEE DATABASE</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+
+        <h1 class="heading">HELLO, Welcome to the Sourcefuse Employee Database</h1>
+        
+           
+
+            <div class="container">
+
+              <div class="button-div">
+                <a class="btn btn-lg btn-primary btn_all" href="javascript:location.reload(true)">LOAD DATA</a>
+                <button class="btn btn-lg btn-danger btn_all" id="deletemul">DELETE MULTIPLE</button>
+                <button class="btn btn-lg btn-success btn_all" id="addrow">ADD ROW</button>
+              </div>
+
+                <table class="table table1">
+                    <thead>
+                      <tr>
+                        <th></th>
+                        <th>Firstname</th>
+                        <th>Middlename</th>
+                        <th>Lastname</th>
+                        <th>Email</th>
+                        <th>Phone.No</th>
+                        <th>Address</th>
+                        <th>Role</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
+                        
+                      </tr>
+                    </thead>
+                    <tbody id="table-body">
+                      
+                    </tbody>
+                  </table>
+                  <div>
+                    <button id="confirm" class="btn btn-danger btn-lg">CONFIRM</button>
+                  </div>
+            </div>
+        
+    </div>
+   
+    <script src="main.js"></script>
+</body>
+</html>
